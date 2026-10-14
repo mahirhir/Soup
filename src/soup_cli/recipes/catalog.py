@@ -137,6 +137,7 @@ training:
   grpo_beta: 0.1
   num_generations: 4
   reward_fn: accuracy
+  gradient_checkpointing: true
 
 output: ./output
 """,
@@ -368,6 +369,7 @@ training:
   grpo_beta: 0.1
   num_generations: 4
   reward_fn: accuracy
+  gradient_checkpointing: true
 
 output: ./output
 """,
@@ -603,6 +605,7 @@ training:
   grpo_beta: 0.1
   num_generations: 4
   reward_fn: accuracy
+  gradient_checkpointing: true
 
 output: ./output
 """,
@@ -635,6 +638,7 @@ training:
   grpo_beta: 0.1
   num_generations: 4
   reward_fn: accuracy
+  gradient_checkpointing: true
 
 output: ./output
 """,
@@ -671,6 +675,7 @@ training:
   num_generations: 4
   reward_fn: accuracy,format
   verifiable_domain: math
+  gradient_checkpointing: true
 
 output: ./output
 """,
@@ -845,6 +850,7 @@ training:
     alpha: 32
     target_modules: auto
   quantization: 4bit
+  gradient_checkpointing: true
 
 output: ./output_rm
 """,
@@ -999,6 +1005,7 @@ training:
   grpo_beta: 0.1
   num_generations: 4
   reward_fn: accuracy
+  gradient_checkpointing: true
 
 output: ./output
 """,
@@ -1088,6 +1095,7 @@ training:
   grpo_beta: 0.1
   num_generations: 4
   reward_fn: accuracy
+  gradient_checkpointing: true
 
 output: ./output
 """,
@@ -1353,6 +1361,7 @@ training:
     target_modules: auto
   quantization: 4bit
   ipo_tau: 0.1
+  gradient_checkpointing: true
 
 output: ./output
 """,
@@ -1780,6 +1789,7 @@ training:
   grpo_beta: 0.1
   num_generations: 4
   reward_fn: accuracy
+  gradient_checkpointing: true
 
 output: ./output
 """,
@@ -1812,6 +1822,7 @@ training:
   grpo_beta: 0.1
   num_generations: 4
   reward_fn: accuracy
+  gradient_checkpointing: true
 
 output: ./output
 """,
@@ -1844,6 +1855,7 @@ training:
   grpo_beta: 0.1
   num_generations: 4
   reward_fn: accuracy
+  gradient_checkpointing: true
 
 output: ./output
 """,
@@ -1975,6 +1987,7 @@ training:
   grpo_beta: 0.1
   num_generations: 4
   reward_fn: accuracy
+  gradient_checkpointing: true
 
 output: ./output
 """,
@@ -2154,6 +2167,7 @@ training:
     alpha: 16
     target_modules: auto
   quantization: none
+  gradient_checkpointing: true
 
 output: ./output
 """,
@@ -2882,6 +2896,7 @@ training:
   num_generations: 4
   reward_fn: accuracy
   verifiable_domain: math
+  gradient_checkpointing: true
 
 output: ./output
 """,
@@ -3697,6 +3712,7 @@ training:
   grpo_beta: 0.1
   num_generations: 4
   reward_fn: accuracy
+  gradient_checkpointing: true
 
 output: ./output
 """,
@@ -3759,6 +3775,7 @@ training:
   grpo_beta: 0.1
   num_generations: 4
   reward_fn: accuracy
+  gradient_checkpointing: true
 
 output: ./output
 """,
@@ -3880,6 +3897,7 @@ training:
   grpo_beta: 0.1
   num_generations: 4
   reward_fn: accuracy
+  gradient_checkpointing: true
 
 output: ./output
 """,
@@ -4219,6 +4237,7 @@ training:
   grpo_beta: 0.1
   num_generations: 4
   reward_fn: accuracy
+  gradient_checkpointing: true
 
 output: ./output
 """,
@@ -4989,6 +5008,7 @@ training:
   verifiable_domain: math
   rollout_backend: openenv
   rollout_func: soup_cli.envs.calculator:rollout
+  gradient_checkpointing: true
 
 output: ./output
 """,
@@ -5021,6 +5041,7 @@ training:
   reward_fn: accuracy
   rollout_backend: openenv
   rollout_func: soup_cli.envs.retrieval_qa:rollout
+  gradient_checkpointing: true
 
 output: ./output
 """,
@@ -5054,6 +5075,7 @@ training:
   verifiable_domain: math
   rollout_backend: openenv
   rollout_func: soup_cli.envs.guess_number:rollout
+  gradient_checkpointing: true
 
 output: ./output
 """,

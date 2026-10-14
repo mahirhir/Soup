@@ -24,5 +24,6 @@ training:
   grpo_beta: 0.1
   num_generations: 4
   reward_fn: accuracy
+  gradient_checkpointing: true
 
 output: ./output

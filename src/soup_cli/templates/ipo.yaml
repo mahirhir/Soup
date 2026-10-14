@@ -25,5 +25,6 @@ training:
     target_modules: auto
   quantization: 4bit
   ipo_tau: 0.1
+  gradient_checkpointing: true
 
 output: ./output

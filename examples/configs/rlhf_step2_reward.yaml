@@ -32,5 +32,6 @@ training:
   weight_decay: 0.01
   logging_steps: 10
   save_steps: 50
+  gradient_checkpointing: true
 
 output: ./output_reward_model/
